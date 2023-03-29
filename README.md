@@ -1,6 +1,8 @@
 # emergent_topology_of_ideas_in_vision
 A repo for persistent homology analysis of ideas in vision transformers, using the attention mechanism to derive the Jensen-Shannon distance between probability distributions associated to tokens. 
 
+![simplicial_complex_image.png](https://github.com/Amelie-Schreiber/emergent_topology_of_ideas_in_vision/blob/main/simplicial_complex_image.png)
+
 ## How it Works
 1. Obtain the attention matrix from model using the input tokens $X \in \mathbb{R}^{d \times n}$.
 2. Compute softmax of attention matrix, $\text{Attn}(X)$, to get probability distributions $P(X_i)$ associated to each token embedding $X_i$. 
